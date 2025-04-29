@@ -52,7 +52,3 @@ To accelerate execution, **multiple functional units** (e.g., additional multipl
 - Support for vectorized functional units.
 - External memory initialization to bypass S0.
 - Parameterizable pipeline depth and memory width.
-
-## License
-
-[MIT License](./LICENSE)
