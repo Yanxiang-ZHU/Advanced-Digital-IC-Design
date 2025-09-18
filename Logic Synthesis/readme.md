@@ -7,8 +7,6 @@ This project is a practical assignment for the *Digital Integrated Circuit Desig
 - **Balance**: Reduces the logic depth (levels) of the circuit to improve timing performance, enabling operation at higher clock frequencies by restructuring the AIG for balanced signal paths.
 - **Rewrite**: Minimizes the number of logic gates to optimize circuit area and power efficiency by replacing subgraphs with functionally equivalent, simpler structures.
 
-This project demonstrates my ability to apply advanced EDA concepts, leverage C++17-based tools, and optimize digital circuits for real-world applications.
-
 ---
 
 ## Algorithms Implemented
@@ -99,16 +97,6 @@ ntk = cleanup_dangling(ntk);
 
 ---
 
-## Key Learnings
-
-Through this project, I:
-- Mastered the principles of balance (timing optimization) and rewrite (area optimization) algorithms.
-- Gained hands-on experience with Mockturtle’s API for logic synthesis.
-- Understood the trade-offs between circuit area and timing performance.
-- Learned that combining balance and rewrite avoids local optima, yielding better overall results (e.g., in `voter.aig`).
-
----
-
 ## Setup and Execution
 
 - **Environment**:
@@ -120,11 +108,3 @@ Through this project, I:
   - Test results: `adder_test.png`, `voter_test.png`.
 
 ---
-
-## Repository Contents
-
-- **Code**: `balance.hpp`, `rewrite.hpp` (core implementations).
-- **Screenshots**: Benchmark results (`adder_test.png`, `voter_test.png`).
-- **Images**: Diagrams illustrating algorithm processes (`image1.png` to `image8.png`).
-
-This project showcases my ability to implement and validate complex EDA algorithms, contributing to efficient digital circuit design.
